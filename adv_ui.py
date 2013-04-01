@@ -140,7 +140,6 @@ class Reader(wx.Frame):
         self.Show(True)
 
     def EditApp(self,event):
-        wx.Frame.__init__(self)
 
         editPanel = wx.Panel(self)
         st2 = wx.StaticText(editPanel, -1, 'New Articles', (5, 5))

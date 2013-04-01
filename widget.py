@@ -14,7 +14,8 @@ class Example(wx.Frame):
     def InitUI(self):   
 
         pnl = wx.Panel(self)
-        cbtn = wx.Button(pnl, label='Close', pos=(20, 30))
+        txtcntrl = wx.TextCtrl(pnl,pos=(20, 30))
+        cbtn = wx.Button(pnl, label='Close', pos=(20, 60))
 
         cbtn.Bind(wx.EVT_BUTTON, self.OnClose)
 
